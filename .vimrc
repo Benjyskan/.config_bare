@@ -23,8 +23,8 @@ set hidden		"buffer thing
 set backspace=2 " make backspace work like most other programs
 set tabstop=4
 set ruler			"shows line number and column"
-set rulerformat=%l\:%c		"better ruler format"
-set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l\:%c%V%)
+"set rulerformat=%l\:%c		"better ruler format"
+"set statusline=%<%f\ %h%m%r%{fugitive#statusline()}%=%-14.(%l\:%c%V%)
 
 "Make vim jump to last position when reopening a file
 if has("autocmd")
