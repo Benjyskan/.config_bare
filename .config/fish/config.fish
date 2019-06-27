@@ -17,6 +17,17 @@ export PATH="/Users/penzo/.brew/bin/:/usr/local/bin:$PATH"
 #	setup bare git repo
 alias config='/usr/bin/git --git-dir=$HOME/.config_bare/ --work-tree=$HOME'
 
+#	setup easy cscope update
+alias csup='~/shell_script/gentags.sh'
+
+#	setup vi keybinding
 fish_vi_key_bindings
+
+#	restore ctrl-f to accept auto suggestion
+function fish_user_key_bindings
+	for mode in insert default visual
+		bind -M $mode \cf forward-char
+	end
+end
 
 export SHELL="/Users/penzo/.brew/bin/fish"

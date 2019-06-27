@@ -1,0 +1,18 @@
+# everything
+* 
+
+# but
+!tmp_gitignore
+!.gitignore
+!.gitignore_basic
+!.vimrc
+!.zshrc
+!.vimsyntax.vim
+!delete_zcomp.sh
+!.config/fish/*
+
+!script_shell/
+!script_shell/**
+
+!my_applescripts/
+!my_applescripts/**
