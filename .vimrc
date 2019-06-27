@@ -20,6 +20,7 @@ highlight ColorColumn ctermbg=17
 highlight CursorLine cterm=none guibg=#303000 ctermbg=235
 set timeout timeoutlen=5000 ttimeoutlen=100	"<O> is now instant
 set hidden		"buffer thing
+set backspace=2 " make backspace work like most other programs
 
 "Make vim jump to last position when reopening a file
 if has("autocmd")
@@ -139,7 +140,8 @@ set listchars=tab:→\ ,space:·,nbsp:␣,trail:•,eol:¶,precedes:«,extends:�
 
 "Map 'mini header' depending on filetype
 nnoremap <f4> O"<Space><Esc>76A=<Esc>A<Space>"<Esc>yypO"<Tab>
-autocmd FileType c		nnoremap <buffer> <f4> O/*<CR><BS><BS>/<Esc>O
+"autocmd FileType c	nnoremap <buffer> <f4> O/*<CR><BS><BS>/<Esc>O
+autocmd FileType c	nnoremap <buffer> <f4> O/*<CR><CR>/<CR><Esc>2kA<Space>
 autocmd FileType cpp	nnoremap <buffer> <f4> O/*<CR><BS><BS>/<Esc>O
 autocmd FileType make	nnoremap <buffer> <f4> O<Esc>80i#<Esc>yypO#<Tab>
 autocmd FileType vim	nnoremap <buffer> <f4> O"<Space><Esc>76A=<Esc>A<Space>"<Esc>yypO"<Tab>
@@ -151,9 +153,12 @@ autocmd FileType vim	nnoremap <buffer> <f4> O"<Space><Esc>76A=<Esc>A<Space>"<Esc
 "https://vi.stackexchange.com/questions/15444/remove-automatic-comment-leader?rq=1
 inoremap <silent><expr> <bs> getline('.') =~# '^//\s*$' ? "<c-u>" : "<bs>"
 
+"test auto comment"move me
+set formatoptions+=r
+
 "create 42 comments style naturaly
 augroup Commentgroup
-"this line protect from multi including
 	au!
+	au VimEnter,WinEnter,BufWinEnter * echo "bonsoir"
 	au VimEnter,WinEnter,BufWinEnter * set comments=sl:/*,mb:**,elx:*/
 augroup END
