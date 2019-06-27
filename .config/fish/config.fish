@@ -31,3 +31,9 @@ function fish_user_key_bindings
 end
 
 export SHELL="/Users/penzo/.brew/bin/fish"
+
+	echo "usefull alias:"
+	echo "'config [git cmd]' to intereact with the 'dotfile git'"
+	echo "'csup' to update cscope database in CWD"
+function fish_greeting
+end
