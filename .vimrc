@@ -27,11 +27,6 @@ call plug#begin('~/.vim/plugged')
 call plug#end()
 
 " ============================================================================ "
-"	Vim arirlines
-" ============================================================================ "
-let g:airline#extensions#tabline#enabled = 1	"allow TabLine
-
-" ============================================================================ "
 "	Basic settings
 " ============================================================================ "
 syntax on				"set colors
@@ -96,9 +91,8 @@ let g:easytags_include_members = 1
 " ============================================================================ "
 "	Autocmd && Source
 " ============================================================================ "
-"source cscope plugins
 source ~/.vim/plugins/cscope_maps.vim
-
+source ~/.vim/plugins/my_airline.vim
 
 augroup CursorLine
 	au!
