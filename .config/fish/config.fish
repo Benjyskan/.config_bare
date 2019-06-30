@@ -20,6 +20,9 @@ alias config='/usr/bin/git --git-dir=$HOME/.config_bare/ --work-tree=$HOME'
 #	setup easy cscope update
 alias csup='~/shell_script/gentags.sh'
 
+#	setup to open vim's config files
+alias vimconfig='vim ~/.vimrc ~/.vim/plugged/vim-airline/autoload//airline.vim ~/.vim/plugins/cscope_maps.vim'
+
 #	setup vi keybinding
 fish_vi_key_bindings
 
@@ -35,5 +38,6 @@ export SHELL="/Users/penzo/.brew/bin/fish"
 	echo "usefull alias:"
 	echo "'config [git cmd]' to intereact with the 'dotfile git'"
 	echo "'csup' to update cscope database in CWD"
+	echo "'vimconfig' to edit vim's config files"
 function fish_greeting
 end
