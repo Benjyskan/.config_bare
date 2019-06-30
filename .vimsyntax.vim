@@ -1,3 +1,4 @@
+"THIS BREAK AIRLINE, need an alternative
 "Memory allocation functions
 syn keyword	cMemoryFunc	ft_lstnew malloc ft_memalloc ft_memmove ft_strdup ft_strndup ft_strnew ft_strsplit ft_strsub ft_swap ft_strjoin ft_itoa strsplit_multi getcwd ft_strtrim
 
@@ -10,3 +11,9 @@ syn keyword cType	t_dlst t_lst t_tetri_coo t_opt t_ldir t_myenv t_cmdlst t_token
 hi cMemoryFunc	guifg=Brown ctermfg=Brown term=bold
 hi cPrintf guifg=darkgreen ctermfg=darkgreen term=bold
 hi cType guifg=lightgreen ctermfg=lightgreen term=bold
+
+"Normal syntax
+"set background=dark
+"hi Comment guifg=#0E40AB ctermfg=blue
+"hi Comment cterm=bold
+

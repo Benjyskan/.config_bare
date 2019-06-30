@@ -1,27 +1,26 @@
 # everything
 * 
+
 # but
 !tmp_gitignore
 !.gitignore
 !.gitignore_basic
 !.vimrc
-
-!.vim
-!.vim/
-!.vim/plugins
-!.vim/plugins/
-!.vim/plugins/**
-!.vim/plugins/cscope_maps.vim
-
-# this doesn't work :(
-#!~/.vim
-#!~/.vim/
-#!~/.vim/**
-#!~/.vim/*/**
-
 !.zshrc
 !.vimsyntax.vim
 !delete_zcomp.sh
+
+
+!.vim
+!.vim/
+!.vim/autoload/
+!.vim/autoload/plug.vim
+!.vim/pack
+!.vim/plugged
+!.vim/plugins
+
+!.vim/plugged/vim-airline/**/*
+
 !.config/fish/*
 
 !script_shell/
