@@ -6,7 +6,7 @@
 "    By: penzo <marvin@42.fr>                       +#+  +:+       +#+         "
 "                                                 +#+#+#+#+#+   +#+            "
 "    Created: 2019/03/25 17:57:53 by penzo             #+#    #+#              "
-"    Updated: 2019/06/26 18:36:42 by penzo            ###   ########.fr        "
+"    Updated: 2019/06/30 16:46:22 by penzo            ###   ########.fr        "
 "                                                                              "
 " **************************************************************************** "
 
@@ -25,6 +25,11 @@ call plug#begin('~/.vim/plugged')
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
 call plug#end()
+
+" ============================================================================ "
+"	Vim arirlines
+" ============================================================================ "
+let g:airline#extensions#tabline#enabled = 1	"allow TabLine
 
 " ============================================================================ "
 "	Basic settings
