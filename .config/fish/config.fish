@@ -21,7 +21,12 @@ alias config='/usr/bin/git --git-dir=$HOME/.config_bare/ --work-tree=$HOME'
 alias csup='~/shell_script/gentags.sh'
 
 #	setup to open vim's config files
-alias vimconfig='vim ~/.vimrc ~/.vim/plugged/vim-airline/autoload//airline.vim ~/.vim/plugins/cscope_maps.vim'
+alias vimconfig='vim
+	~/.vimrc
+	~/.vim/plugins/cscope_maps.vim
+	~/.vim/plugins/my_airline.vim'
+
+	#~/.vim/plugged/vim-airline/autoload/airline.vim
 
 #	setup vi keybinding
 fish_vi_key_bindings
