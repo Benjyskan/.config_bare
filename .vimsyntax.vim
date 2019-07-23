@@ -1,4 +1,4 @@
-"THIS BREAK AIRLINE, need an alternative
+"THIS BREAK AIRLINE (so this file isn't call anywhere, need an alternative)
 "Memory allocation functions
 syn keyword	cMemoryFunc	ft_lstnew malloc ft_memalloc ft_memmove ft_strdup ft_strndup ft_strnew ft_strsplit ft_strsub ft_swap ft_strjoin ft_itoa strsplit_multi getcwd ft_strtrim
 

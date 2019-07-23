@@ -1,15 +1,3 @@
-" **************************************************************************** "
-"                                                                              "
-"                                                         :::      ::::::::    "
-"    .vimrc                                             :+:      :+:    :+:    "
-"                                                     +:+ +:+         +:+      "
-"    By: penzo <marvin@42.fr>                       +#+  +:+       +#+         "
-"                                                 +#+#+#+#+#+   +#+            "
-"    Created: 2019/03/25 17:57:53 by penzo             #+#    #+#              "
-"    Updated: 2019/06/30 16:46:22 by penzo            ###   ########.fr        "
-"                                                                              "
-" **************************************************************************** "
-
 set nocompatible	"disable VI compatibility
 " ============================================================================ "
 "	Vim Plug (plugin manager)
@@ -186,3 +174,21 @@ augroup Commentgroup
 	au!
 	au VimEnter,WinEnter,BufWinEnter * set comments=sl:/*,mb:**,elx:*/
 augroup END
+
+" ============================================================================ "
+"	(attempt) Syntax for .cmdex files
+" ============================================================================ "
+" Set the filetype based on the file's extension, overriding any
+" 'filetype' that has already been set
+
+"match from first '#' to end of line
+au BufRead,BufNewFile *.cmdex hi my_comment ctermfg=6 ctermbg=0
+au BufRead,BufNewFile *.cmdex syn match my_comment /#.*$/
+
+"match all lines starting with '$'
+au BufRead,BufNewFile *.cmdex hi cmd_line ctermfg=2 ctermbg=0
+au BufRead,BufNewFile *.cmdex syn match cmd_line /^\s*$.[^#]*/
+
+"match all lines starting with '- '
+au BufRead,BufNewFile *.cmdex hi question_line ctermfg=3 ctermbg=0
+au BufRead,BufNewFile *.cmdex syn match question_line /^\s*- .[^#]*/
