@@ -1,4 +1,5 @@
 function set_bash_prompt () {
+	#catch last return value before updating it
 	status=$?
 	# Color codes for easy prompt building
 	COLOR_DIVIDER="\[\e[30;1m\]"
@@ -12,10 +13,6 @@ function set_bash_prompt () {
 	COLOR_PATH_OK="\[\e[32;1m\]"
 	COLOR_PATH_ERR="\[\e[31;1m\]"
 	COLOR_NONE="\[\e[0m\]"
-	# Change the path color based on return value.
-	#test $status -eq 0\
-	#	&& PATH_COLOR=${COLOR_PATH_OK}\
-	#	|| PATH_COLOR=${COLOR_PATH_ERR}
 	# Set the PS1 to be "[workingdirectory:commandcount"
 	PS1="${COLOR_DIVIDER}[${COLOR_GREEN}\w${COLOR_DIVIDER}"
 	# Add git branch portion of the prompt, this adds ":branchname"
@@ -31,11 +28,10 @@ function set_bash_prompt () {
 	#if ! test -z "$VIRTUAL_ENV" ; then
 	#	PS1="${PS1}:${COLOR_VENV}`basename \"$VIRTUAL_ENV\"`${COLOR_DIVIDER}"
 	#fi
+	# add [$?] if $? != 0
 	test $status -eq 0\
 		&& PS1="${PS1}]${COLOR_DIVIDER}${COLOR_NONE} "\
 		|| PS1="${PS1}]${COLOR_DIVIDER}${COLOR_PATH_ERR}[$status] ${COLOR_DIVIDER}${COLOR_NONE}"
-	# Close out the prompt
-	
 }
 
 # Tell Bash to run the above function for every prompt
