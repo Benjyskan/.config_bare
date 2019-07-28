@@ -3,7 +3,8 @@
 ############################################################################
 alias ls='ls -F --color=auto'
 #check if coreutils if installed && use it instead
-test -d /usr/local/Cellar/coreutils && alias ls='gls -F --color=auto'
+#test -d /usr/local/Cellar/coreutils && alias ls='gls -F --color=auto' #for macbook
+test -d /Users/penzo/.brew/Cellar/coreutils/ && alias ls='gls -F --color=auto' #for 42's imac
 alias ll='ls -oh --group-directories-first'
 alias l='ll -A'
 #Expand current directory structure in tree form
