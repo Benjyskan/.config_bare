@@ -125,6 +125,9 @@ nnoremap go :find
 nnoremap gn :bn<CR>
 nnoremap gp :bp<CR>
 nnoremap gd :bp\|bd #<CR>
+"Open split on next buffer
+nnoremap gv :vs\|bn<CR>
+nnoremap gs :sp\|bn<CR>
 
 "Buffer and Split
 nnoremap <C-h> <C-w>h
@@ -173,6 +176,7 @@ autocmd FileType c		nnoremap <buffer> <f4> O/*<CR><CR>/<CR><Esc>2kA<Space>
 autocmd FileType cpp	nnoremap <buffer> <f4> O/*<CR><BS><BS>/<Esc>O
 autocmd FileType make	nnoremap <buffer> <f4> O<Esc>80i#<Esc>yypO#<Tab>
 autocmd FileType vim	nnoremap <buffer> <f4> O"<Space><Esc>76A=<Esc>A<Space>"<Esc>yypO"<Tab>
+autocmd FileType sh	nnoremap <buffer> <f4> O<Esc>79A#<Esc>yypO#<Tab>
 
 " ============================================================================ "
 "	Comment settings

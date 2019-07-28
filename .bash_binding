@@ -1,0 +1,2 @@
+bind '"\C-o": history-search-backward'
+bind '"\C-p": history-search-forward'

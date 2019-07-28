@@ -1,0 +1,1027 @@
+source ~/.bashrc
+#1564274526
+ls
+#1564274527
+sdf
+#1564274537
+source ~/.bashrc
+#1564274547
+ls
+#1564274549
+pwd
+#1564274551
+sdf
+#1564274818
+source ~/.bashrc
+#1564274820
+ls
+#1564274821
+sdf
+#1564274837
+source ~/.bashrc
+#1564274837
+ls
+#1564274838
+sdf
+#1564275089
+source ~/.bashrc
+#1564275091
+ls
+#1564275093
+sdf
+#1564275095
+cd sdf
+#1564275229
+source ~/.bashrc
+#1564275231
+ls
+#1564275234
+pwd
+#1564275235
+sdf
+#1564275401
+source ~/.bashrc
+#1564275402
+ls
+#1564275403
+sdf
+#1564275719
+ks
+#1564275720
+sdf
+#1564275726
+cd 42projects/42sh/
+#1564275728
+sdf
+#1564275730
+pwd
+#1564276009
+source ~/.bashrc
+#1564276290
+cd sdfasdf && echo bonsoir || echo salut
+#1564276297
+echo && echo bonsoir || echo salut
+#1564276342
+PATH_COLOR=\[\e[30;1m\]
+#1564276388
+PATH_COLOR="\[\e[32;1m\]"
+#1564276401
+PATH_COLOR="\[\e[31;1m\]"
+#1564276451
+source ~/.bashrc
+#1564276656
+ls
+#1564276656
+sdf
+#1564276690
+test $? -eq 0 && echo OUI || echo nop
+#1564276696
+dfg
+#1564276700
+test $? -eq 0 && echo OUI || echo nop
+#1564277018
+echo $TEST
+#1564277026
+TEST=sdf
+#1564277031
+echo $TEST
+#1564277142
+touch sdf
+#1564277148
+rm sdf
+#1564277191
+source ~/.bashrc
+#1564277193
+sdf
+#1564277195
+ls
+#1564277207
+echo bonosir
+#1564277507
+sdf
+#1564277511
+TEST=sdf
+#1564277513
+echo $?
+#1564277544
+source ~/.bashrc
+#1564277545
+ls
+#1564277546
+sdf
+#1564277580
+source ~/.bashrc
+#1564277581
+ls
+#1564277582
+sdf
+#1564277603
+source ~/.bashrc
+#1564277605
+sdf
+#1564277606
+ls
+#1564277622
+source ~/.bashrc
+#1564277623
+ls
+#1564277624
+sdf
+#1564277757
+PROMPT_COMMAND='echo salut'
+#1564277759
+sdf
+#1564277761
+ks
+#1564277762
+ls
+#1564277798
+PROMPT_COMMAND='echo $?'
+#1564277799
+sdf
+#1564277800
+ls
+#1564277837
+source ~/.bashrc
+#1564277838
+ls
+#1564277839
+sdf
+#1564277841
+ls
+#1564277842
+sdf
+#1564277871
+ls
+#1564277873
+sdf
+#1564277893
+source ~/.bashrc
+#1564277894
+ls
+#1564277895
+sdf
+#1564277896
+ls
+#1564277898
+sdf
+#1564277898
+sd
+#1564277898
+fsdf
+#1564277899
+sdf
+#1564277914
+source ~/.bashrc
+#1564277915
+ls
+#1564277916
+sdf
+#1564277918
+weraa
+#1564277920
+cd sdfa
+#1564277965
+source ~/.bashrc
+#1564277966
+ls
+#1564277966
+sdf
+#1564278000
+source ~/.bashrc
+#1564278001
+ls
+#1564278002
+sdf
+#1564278005
+echo $?
+#1564278033
+source ~/.bashrc
+#1564278034
+ls
+#1564278035
+wd
+#1564278036
+sdf
+#1564278037
+ls
+#1564278076
+l
+#1564278106
+source ~/.bashrc
+#1564278107
+l
+#1564278121
+ls -alF --color=aut
+#1564278127
+ls -alF --color=auto
+#1564278135
+ls -alF
+#1564278160
+source ~/.bashrc
+#1564278162
+l
+#1564278163
+ls
+#1564278164
+ll
+#1564278166
+l
+#1564278175
+source ~/.bashrc
+#1564278176
+ls
+#1564278178
+ls -la
+#1564278179
+l
+#1564278179
+ll
+#1564278182
+ls
+#1564278225
+source ~/.bashrc
+#1564278226
+ls
+#1564278228
+sdf
+#1564278306
+source ~/.bashrc
+#1564278307
+ls
+#1564278307
+sdf
+#1564278316
+source ~/.bashrc
+#1564278317
+ls
+#1564278317
+sdf
+#1564278621
+source ~/.bashrc
+#1564278622
+sdf
+#1564278623
+ls
+#1564278671
+source ~/.bashrc
+#1564278672
+ls
+#1564278672
+sdf
+#1564278680
+source ~/.bashrc
+#1564278680
+ls
+#1564278681
+sdf
+#1564278782
+source ~/.bashrc
+#1564278817
+ls
+#1564278819
+sdf
+#1564278824
+ls
+#1564278880
+man hystory
+#1564278888
+man history
+#1564279088
+source ~/.bashrc
+#1564279089
+l
+#1564279092
+ll
+#1564279257
+source ~/.bashrc
+#1564279259
+ll
+#1564279269
+man ls
+#1564279379
+source ~/.bashrc
+#1564279381
+ll
+#1564279382
+l
+#1564279384
+ls
+#1564279385
+l
+#1564279519
+brew install coreutils
+#1564279551
+source ~/.bashrc
+#1564279553
+l
+#1564279554
+ll
+#1564279572
+source ~/.bashrc
+#1564279574
+ls
+#1564279603
+gls
+#1564279618
+source ~/.bashrc
+#1564279620
+gls
+#1564279626
+ls
+#1564279699
+info coreutils
+#1564279704
+info coreutilss
+#1564279712
+info coreutils
+#1564279770
+source ~/.bashrc
+#1564279877
+man info
+#1564279993
+ls --version
+#1564280009
+\ls --version
+#1564280012
+\ls
+#1564280015
+ls
+#1564280077
+dpkg
+#1564280122
+brew info coreutils
+#1564280143
+brew list coreutils
+#1564280166
+brew ls
+#1564280178
+brew ls coreutils
+#1564280246
+brew ls --version coreutils
+#1564280254
+brew ls --version
+#1564280292
+brew ls coreutils
+#1564280380
+source ~/.bashrc
+#1564280384
+ll
+#1564280425
+test -f /usr/local/Cellar/coreutils && echo bonsoir
+#1564280460
+source ~/.bashrc
+#1564280464
+ll
+#1564280483
+source ~/.bashrc
+#1564280484
+ll
+#1564280565
+alias sdf=ls
+#1564280565
+sdf
+#1564280591
+alias ls='ls -la'
+#1564280593
+sdf
+#1564280747
+source ~/.bashrc
+#1564280750
+ls
+#1564280756
+l
+#1564280757
+ll
+#1564280830
+source ~/.bashrc
+#1564280830
+ls
+#1564280833
+l
+#1564280834
+ll
+#1564280853
+source ~/.bashrc
+#1564280853
+l
+#1564280854
+ll
+#1564280938
+source ~/.bashrc
+#1564280941
+l
+#1564280942
+ll
+#1564280944
+l
+#1564280945
+ls
+#1564280982
+source ~/.bashrc
+#1564280983
+ll
+#1564280983
+l
+#1564281158
+take
+#1564281204
+man mkdir
+#1564281267
+source ~/.bashrc
+#1564281268
+l
+#1564281270
+cd
+#1564281270
+l
+#1564281273
+cd -
+#1564281274
+l
+#1564281285
+take bonsoir
+#1564281291
+cd -
+#1564281323
+echo [[ $1 ]]
+#1564281347
+rm -rf bonsoir/
+#1564281348
+l
+#1564281391
+ls | grep sdf
+#1564281398
+ls | grep ta
+#1564281542
+\ls
+#1564281544
+ls
+#1564281552
+\ls -A
+#1564281557
+\ls -a
+#1564281566
+\ls -Ah
+#1564281573
+man ls
+#1564281699
+l
+#1564281703
+ll
+#1564281737
+source ~/.bashrc
+#1564281737
+l
+#1564281740
+ll
+#1564281763
+source ~/.bashrc
+#1564281764
+l
+#1564281765
+ll
+#1564281779
+cat 'colo dessert' 
+#1564281834
+l
+#1564281834
+ll
+#1564281933
+source ~/.bashrc
+#1564281933
+l
+#1564281947
+source ~/.bashrc
+#1564281947
+l
+#1564281948
+ll
+#1564281988
+source ~/.bashrc
+#1564281989
+l
+#1564281990
+ll
+#1564282023
+source ~/.bashrc
+#1564282024
+l
+#1564282032
+source ~/.bashrc
+#1564282032
+l
+#1564282034
+ll
+#1564282038
+l
+#1564282039
+ll
+#1564282040
+l
+#1564282041
+ll
+#1564282042
+l
+#1564282043
+ll
+#1564282044
+l
+#1564282045
+ll
+#1564282046
+l
+#1564282046
+ll
+#1564282048
+l
+#1564282048
+ll
+#1564282056
+s
+#1564282057
+ls
+#1564282134
+echo -e "  ╭╮╭╮\n  ⎩⎭⎩⎭\n  ('.')\n  (()()\n *(_()()" | lolcat -F .7
+#1564282182
+screen -ls
+#1564282506
+du -S | sort -n -r | less
+#1564282512
+man du
+#1564282536
+gdu -S | sort -n -r | less
+#1564282558
+cd
+#1564282560
+gdu -S | sort -n -r | less
+#1564282570
+cd -
+#1564282582
+ls -o
+#1564282587
+ls
+#1564282590
+man ls
+#1564282604
+ls
+#1564282604
+l
+#1564282607
+ls -o
+#1564282628
+source ~/.bashrc
+#1564282629
+l
+#1564282632
+ll
+#1564282633
+l
+#1564282648
+man ls
+#1564282824
+ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+#1564282880
+lst
+#1564282904
+source ~/.bashrc
+#1564282906
+lst
+#1564282910
+cd
+#1564282911
+lst
+#1564282919
+cd -
+#1564282921
+lst
+#1564282940
+netstat
+#1564282952
+netstat -tulanp
+#1564282957
+gnetstat -tulanp
+#1564282960
+netstat -tulanp
+#1564282966
+netstat -tulan
+#1564283002
+cat /dev/urandom | hexdump -C | grep 'ca fe'
+#1564267659
+vim .bashrc
+#1564267685
+cd
+#1564267686
+pwd
+#1564267702
+find .bashrc
+#1564267713
+find / .bashrc
+#1564267994
+ls
+#1564268004
+vim .bashrc
+#1564268027
+vim .vimrc
+#1564268447
+vim .bashrc
+#1564268651
+vim .bashrc
+#1564268684
+vim .vimrc
+#1564268692
+vim .bashrc
+#1564268699
+vim .vimrc
+#1564268778
+vim .bashrc
+#1564268928
+vim .vimrc
+#1564268984
+vim .bashrc
+#1564269163
+vim ,vimrc
+#1564269169
+vim .vimrc
+#1564269308
+vim .bashrc
+#1564269331
+vim .vimrc
+#1564269411
+vim .bashrc
+#1564269434
+vim .vimrc
+#1564269523
+vim .bashrc
+#1564269545
+vim .bashrc
+#1564269551
+vim .bashrc
+#1564269602
+vim .vimrc
+#1564269624
+vim
+#1564269641
+vim /usr/local/share/vim/vim81
+#1564269761
+vim .bashrc
+#1564269837
+vim .vimrc
+#1564269887
+vm .bashrc
+#1564269893
+vim .bashrc
+#1564270049
+bash
+#1564270057
+x
+#1564270059
+c
+#1564270061
+q
+#1564270062
+w
+#1564270062
+e
+#1564270063
+w
+#1564270072
+f
+#1564270073
+fg
+#1564270224
+bash
+#1564270235
+source .bashrc
+#1564270237
+l
+#1564270239
+ls
+#1564270240
+ll
+#1564270273
+man ls
+#1564270285
+fg
+#1564271338
+l *bash_*
+#1564271347
+ls *
+#1564271364
+ls *bash_
+#1564271368
+ls *bash_*
+#1564271372
+ls *bash
+#1564271377
+ls .bash*
+#1564271389
+rm .bash_promt
+#1564271390
+fg
+#1564271543
+source .bashrc
+#1564271561
+vim .bash_aliases 
+#1564271744
+source .bashrc
+#1564271749
+bash_config
+#1564271876
+vim .vimrc
+#1564272149
+bash_config
+#1564272180
+vim .vimrc
+#1564272306
+bash_config
+#1564272372
+vim .vimrc
+#1564272489
+bash_config
+#1564272535
+ls
+#1564272537
+sdf
+#1564272550
+vs
+#1564272554
+fg
+#1564272658
+cd 42projects/42sh/
+#1564272673
+fg
+#1564272685
+ls
+#1564272686
+sdf
+#1564272692
+fg
+#1564272791
+source .bashrc
+#1564272807
+source ~/.bashrc
+#1564272811
+fg
+#1564276108
+bash_config
+#1564283339
+source ~/.bashrc
+#1564283340
+l
+#1564283347
+rm 'colo dessert' 
+#1564283351
+gst
+#1564283358
+bash_config
+#1564283840
+exit
+#1564284474
+env
+#1564284497
+which bash
+#1564284500
+exit
+#1564284513
+cd -
+#1564284547
+bash_config
+#1564285082
+vim .vimrc
+#1564285095
+bash_config
+#1564285105
+vim .vimrc
+#1564285116
+bash_config
+#1564285182
+sad
+#1564285201
+sdfsdsdfsdfsd
+#1564285208
+ls
+#1564285211
+l
+#1564285219
+ll
+#1564285257
+sdf
+#1564285263
+ls
+#1564285277
+11
+#1564285277
+22
+#1564285278
+33
+#1564285311
+bind -p
+#1564285375
+vim .inputrc
+#1564285427
+bash_config
+#1564285460
+ls
+#1564285463
+echo bonsoir
+#1564285463
+ls
+#1564285469
+e
+#1564285499
+bind -e
+#1564285504
+bind
+#1564285513
+bind -p
+#1564285548
+bash_config
+#1564285603
+mv .inputrc .bash_binding
+#1564285612
+vim .bashrc
+#1564285638
+vim .bash_aliases 
+#1564285697
+ls
+#1564285699
+echo bonsoir
+#1564285700
+ls
+#1564285702
+e
+#1564285708
+source ~/.bashrc
+#1564285711
+ec
+#1564285720
+bash_config
+#1564285761
+source ~/.bashrc
+#1564285793
+11
+#1564285793
+22
+#1564285794
+33
+#1564285802
+bash_config
+#1564285843
+source ~/.bashrc
+#1564285954
+l
+#1564285956
+ll
+#1564285968
+gst
+#1564285984
+config
+#1564285987
+exit
+#1564286439
+bashconfig
+#1564286442
+bash_config
+#1564286456
+exit
+#1564286595
+ls
+#1564286598
+bashconfig
+#1564286603
+bash_config
+#1564286624
+exit
+#1564286632
+bashconfig
+#1564286999
+cd 42projects/42sh/
+#1564287001
+git log --graph --oneline --all --decorate --pretty="%C(bold)%ad%C(reset) %C(yellow)%h%C(reset) %an %C(blue)%s" --date=format:"%y/%m/%d"
+#1564287015
+bashconfig
+#1564287054
+source ~/.bashrc
+#1564287059
+gitlog
+#1564287120
+git branch
+#1564287159
+git branch --merged
+#1564287198
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+#1564287210
+git branch
+#1564287226
+git branch test
+#1564287230
+git branch
+#1564287250
+git branch --merged | egrep -v "(^\*|master|dev)" | xargs git branch -d
+#1564287259
+git branch test
+#1564287263
+vim auteur 
+#1564287275
+git branch --merged
+#1564287328
+git branch -r --merged
+#1564287346
+man git branch
+#1564287355
+git branch -h
+#1564287403
+git branch --no-merged
+#1564287413
+git checkout
+#1564287416
+cat auteur 
+#1564287423
+git checkout test
+#1564287427
+vim auteur 
+#1564287437
+git branch --merged
+#1564287448
+git checkout master
+#1564287458
+git branch --merged
+#1564287514
+gst
+#1564287519
+vim auteur 
+#1564287547
+gst
+#1564287578
+git branch -r --merged | grep -v master | sed 's/origin\//:/'
+#1564287589
+git branch
+#1564287639
+bashconfig
+#1564287840
+echo bonsoir
+#1564288919
+sdf
+#1564288922
+ls
+#1564288929
+cd 42projects/42sh/
+#1564288931
+ls
+#1564288932
+sdf
+#1564288969
+exit
+#1564288987
+cd -
+#1564288993
+cd 42projects/42sh/
+#1564289022
+sdf
+#1564289110
+exit
+#1564289563
+sdf
+#1564289569
+ls
+#1564289710
+exit
+#1564289735
+sdf
+#1564289842
+kh
+#1564289860
+sdf
+#1564289913
+ls
+#1564289915
+sdf
+#1564290002
+ls
+#1564290003
+as
+#1564314073
+cd
+#1564314078
+config status
+#1564314118
+config add .vimrc
+#1564314227
+source ~/.bashrc
+#1564314232
+cd 42projects/42sh/
+#1564314234
+sdf
+#1564314420
+source ~/.bashrc
+#1564314423
+sdf
+#1564314426
+cd -
+#1564314427
+sdf
+#1564314551
+config status
+#1564314565
+config add .bash*
