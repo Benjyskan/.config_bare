@@ -7,6 +7,8 @@ export EDITOR=vim
 # Avoid succesive duplicates in the bash command history.
 export HISTCONTROL=ignoredups
 
+export PATH='/Users/penzo/.brew/bin/:/usr/local/bin:'$PATH
+
 ############################################################################
 #	To not poluate non-interactive, place between 'env setup' and 'aliases'
 ############################################################################
