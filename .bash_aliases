@@ -1,10 +1,15 @@
+###############################################################################
+#	CD
+###############################################################################
+alias ..='cd ..'
+
 ############################################################################
 #	LS
 ############################################################################
 alias ls='ls -F --color=auto'
 #check if coreutils if installed && use it instead
-#test -d /usr/local/Cellar/coreutils && alias ls='gls -F --color=auto' #for macbook
-test -d /Users/penzo/.brew/Cellar/coreutils/ && alias ls='gls -F --color=auto' #for 42's imac
+test -d /usr/local/Cellar/coreutils && alias ls='gls -F --color=auto' #for macbook
+#test -d /Users/penzo/.brew/Cellar/coreutils/ && alias ls='gls -F --color=auto' #for 42's imac
 alias ll='ls -oh --group-directories-first'
 alias l='ll -A'
 #Expand current directory structure in tree form
@@ -21,6 +26,12 @@ alias fix='vim `git diff --name-only | uniq`'
 #alias for  bare git repo
 alias config='/usr/bin/git --git-dir=$HOME/.config_bare/ --work-tree=$HOME'
 alias gitlog='git log --graph --oneline --all --decorate --pretty="%C(bold)%ad%C(reset) %C(yellow)%h%C(reset) %an %C(blue)%s" --date=format:"%y/%m/%d"'
+
+###############################################################################
+#	Python
+###############################################################################
+alias python=python3
+alias pip=pip3
 
 ############################################################################
 #	Functions
