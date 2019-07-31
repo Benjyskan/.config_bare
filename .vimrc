@@ -12,6 +12,7 @@ endif
 call plug#begin('~/.vim/plugged')
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
+	Plug 'tpope/vim-surround'
 	"Plug 'junegunn/seoul256.vim'
 call plug#end()
 
@@ -75,7 +76,7 @@ set formatoptions+=r "Automatically comment on <Enter> in comment
 "change windows spliter style
 "set fillchars+=vert:\ 
 set fillchars+=stl:-,stlnc:-,vert:│
-highlight VertSplit ctermfg=0 ctermbg=8
+highlight VertSplit ctermfg=234 ctermbg=8
 
 "change 'Search' highlight color
 highlight Search ctermfg=0 ctermbg=3*
@@ -158,6 +159,13 @@ set foldnestmax=1
 "set foldmethod=marker
 "set foldmarker=/*,*/
 
+" ============================================================================ "
+"	.extension FileType
+" ============================================================================ "
+augroup BashFileType
+	au!
+	autocmd BufRead,BufNewFile *.bash_* set syntax=sh
+augroup END
 " ============================================================================ "
 "	F? mapping
 " ============================================================================ "
