@@ -12,19 +12,19 @@ endif
 call plug#begin('~/.vim/plugged')
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
-	Plug 'junegunn/seoul256.vim'
+	"Plug 'junegunn/seoul256.vim'
 call plug#end()
 
 " ============================================================================ "
 "	Basic settings
 " ============================================================================ "
 set t_Co=256			"set 256-color in vim
-colo seoul256
+"colo seoul256
 syntax on				"set colors
 filetype plugin indent on	"set [filetype] [plugin] [indent (depending on filetype)]
 set nonu
 set colorcolumn=80		"display Norm column
-highlight ColorColumn ctermbg=17
+highlight ColorColumn ctermbg=59
 " i think gui works only in 'gvim'
 "highlight CursorLine cterm=none guibg=#303000 ctermbg=235
 highlight CursorLine cterm=none ctermbg=235
@@ -107,7 +107,7 @@ augroup END
 command! WQ wq
 command! Wq wq
 command! W w
-command! Q q
+command! Q qa
 
 " ============================================================================ "
 "	Mapping

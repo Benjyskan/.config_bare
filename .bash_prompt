@@ -9,7 +9,7 @@ function git_commits () {
 		commits_count="$(git status 2>/dev/null | sed -n '2p' | awk '{print $8}')"
 		PS1="${PS1}${COLOR_OCHRE}↑${commits_count}${COLOR_DIVIDER}"
 	elif [[ $git_status =~ "nothing to commit" ]]; then
-		PS1="${PS1}${COLOR_GREEN}√${COLOR_DIVIDER}"
+		PS1="${PS1}${COLOR_GREEN}✓${COLOR_DIVIDER}"
 	fi
 	if [ $git_untracked_count != "0" ] ; then
 		PS1="${PS1}${COLOR_BLUE}+${git_untracked_count}${COLOR_DIVIDER}"
