@@ -30,9 +30,9 @@ highlight ColorColumn ctermbg=59
 "highlight CursorLine cterm=none guibg=#303000 ctermbg=235
 highlight CursorLine cterm=none ctermbg=235
 
-set timeout timeoutlen=5000 ttimeoutlen=100	"<O> is now instant
-set ttimeout
-set ttimeoutlen=50	"reduce statusline lag when exiting insert mode
+"set timeout timeoutlen=5000 ttimeoutlen=100	"<O> is now instant
+"set ttimeout
+"set ttimeoutlen=50	"reduce statusline lag when exiting insert mode
 
 set hidden		"buffer thing
 
@@ -207,13 +207,13 @@ augroup END
 " 'filetype' that has already been set
 
 "match from first '#' to end of line
-au BufRead,BufNewFile *.cmdex hi my_comment ctermfg=6 ctermbg=0
+au BufRead,BufNewFile *.cmdex hi my_comment ctermfg=6 ctermbg=none
 au BufRead,BufNewFile *.cmdex syn match my_comment /#.*$/
 
 "match all lines starting with '$'
-au BufRead,BufNewFile *.cmdex hi cmd_line ctermfg=2 ctermbg=0
+au BufRead,BufNewFile *.cmdex hi cmd_line ctermfg=2 ctermbg=none
 au BufRead,BufNewFile *.cmdex syn match cmd_line /^\s*$.[^#]*/
 
 "match all lines starting with '- '
-au BufRead,BufNewFile *.cmdex hi question_line ctermfg=3 ctermbg=0
+au BufRead,BufNewFile *.cmdex hi question_line ctermfg=3 ctermbg=none
 au BufRead,BufNewFile *.cmdex syn match question_line /^\s*- .[^#]*/
