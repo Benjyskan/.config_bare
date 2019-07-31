@@ -1,6 +1,24 @@
+function git_commits () {
+	local git_status="$(git status 2> /dev/null)"
+	local git_untracked_count=$(git status ${_ignore_submodules} --untracked-files="${__GIT_PROMPT_SHOW_UNTRACKED_FILES:-normal}" --porcelain | wc -l | sed -e 's/^[[:space:]]*//' -e 's/[[:space:]]*$//')
+
+	if [[ $git_status =~ "Your branch is behind" ]]; then
+		commits_count="$(git status 2>/dev/null | sed -n '2p' | awk '{print $7}')"
+		PS1="${PS1}${COLOR_RED}↓${commits_count}${COLOR_DIVIDER}"
+ 	elif [[ $git_status =~ "Your branch is ahead of" ]]; then
+		commits_count="$(git status 2>/dev/null | sed -n '2p' | awk '{print $8}')"
+		PS1="${PS1}${COLOR_OCHRE}↑${commits_count}${COLOR_DIVIDER}"
+	elif [[ $git_status =~ "nothing to commit" ]]; then
+		PS1="${PS1}${COLOR_GREEN}√${COLOR_DIVIDER}"
+	fi
+	if [ $git_untracked_count != "0" ] ; then
+		PS1="${PS1}${COLOR_BLUE}+${git_untracked_count}${COLOR_DIVIDER}"
+	fi
+}
+
 function set_bash_prompt () {
 	#catch last return value before updating it
-	status=$?
+	local status=$?
 	# Color codes for easy prompt building
 	COLOR_DIVIDER="\[\e[30;1m\]"
 	COLOR_CMDCOUNT="\[\e[34;1m\]"
@@ -11,9 +29,17 @@ function set_bash_prompt () {
 	COLOR_VENV="\[\e[33;1m\]"
 	COLOR_GREEN="\[\e[32;1m\]"
 	COLOR_PATH_OK="\[\e[32;1m\]"
+	COLOR_GREEN="\[\e[32;1m\]"
 	COLOR_PATH_ERR="\[\e[31;1m\]"
-	COLOR_NONE="\[\e[0m\]"
-	# Set the PS1 to be "[workingdirectory:commandcount"
+	COLOR_RED="\[\e[31;1m\]"
+	COLOR_NONE="\[\e[0m\]"		#not used
+	COLOR_YELLOW="\033[0;33m"
+	COLOR_OCHRE="\033[38;5;95m"
+	COLOR_BLUE="\033[0;34m"
+	COLOR_WHITE="\033[0;37m"
+	COLOR_RESET="\033[0m"		#not used
+
+	# Set the PS1 to be "[workingdirectory"
 	PS1="${COLOR_DIVIDER}[${COLOR_GREEN}\w${COLOR_DIVIDER}"
 	# Add git branch portion of the prompt, this adds ":branchname"
 	if ! git_loc="$(type -p "$git_command_name")" || [ -z "$git_loc" ]; then
@@ -22,12 +48,9 @@ function set_bash_prompt () {
 			# Inside of a git repository
 			GIT_BRANCH=$(git symbolic-ref --short HEAD)
 			PS1="${PS1}:${COLOR_GITBRANCH}${GIT_BRANCH}${COLOR_DIVIDER}"
+			git_commits #my function
 		fi
 	fi
-	# Add Python VirtualEnv portion of the prompt, this adds ":venvname"
-	#if ! test -z "$VIRTUAL_ENV" ; then
-	#	PS1="${PS1}:${COLOR_VENV}`basename \"$VIRTUAL_ENV\"`${COLOR_DIVIDER}"
-	#fi
 	# add [$?] if $? != 0
 	test $status -eq 0\
 		&& PS1="${PS1}]${COLOR_DIVIDER}${COLOR_NONE} "\

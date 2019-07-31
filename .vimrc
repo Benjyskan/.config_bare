@@ -12,17 +12,22 @@ endif
 call plug#begin('~/.vim/plugged')
 	Plug 'vim-airline/vim-airline'
 	Plug 'vim-airline/vim-airline-themes'
+	Plug 'junegunn/seoul256.vim'
 call plug#end()
 
 " ============================================================================ "
 "	Basic settings
 " ============================================================================ "
+set t_Co=256			"set 256-color in vim
+colo seoul256
 syntax on				"set colors
 filetype plugin indent on	"set [filetype] [plugin] [indent (depending on filetype)]
 set nonu
 set colorcolumn=80		"display Norm column
 highlight ColorColumn ctermbg=17
-highlight CursorLine cterm=none guibg=#303000 ctermbg=235
+" i think gui works only in 'gvim'
+"highlight CursorLine cterm=none guibg=#303000 ctermbg=235
+highlight CursorLine cterm=none ctermbg=235
 
 set timeout timeoutlen=5000 ttimeoutlen=100	"<O> is now instant
 set ttimeout
@@ -66,6 +71,14 @@ set splitright	"More natural spliting
 set sb			"More natural spliting
 
 set formatoptions+=r "Automatically comment on <Enter> in comment
+
+"change windows spliter style
+"set fillchars+=vert:\ 
+set fillchars+=stl:-,stlnc:-,vert:│
+highlight VertSplit ctermfg=0 ctermbg=8
+
+"change 'Search' highlight color
+highlight Search ctermfg=0 ctermbg=3*
 
 " ============================================================================ "
 "	ctags protection
