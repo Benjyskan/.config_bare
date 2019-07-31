@@ -8,9 +8,16 @@ alias ..='cd ..'
 #	LS
 ############################################################################
 alias ls='ls -F --color=auto'
+
 #check if coreutils if installed && use it instead
-test -d /usr/local/Cellar/coreutils && alias ls='gls -F --color=auto' #for macbook
+#test -d /usr/local/Cellar/coreutils && alias ls='gls -F --color=auto' #for macbook
 #test -d /Users/penzo/.brew/Cellar/coreutils/ && alias ls='gls -F --color=auto' #for 42's imac
+if [ `uname -n | cut -d. -f2 -f3` = "42.fr" ]; then
+	test -d /Users/penzo/.brew/Cellar/coreutils/ && alias ls='gls -F --color=auto' #for 42's imac
+else
+	test -d /usr/local/Cellar/coreutils && alias ls='gls -F --color=auto' #for macbook
+fi
+
 alias ll='ls -oh --group-directories-first'
 alias l='ll -A'
 #Expand current directory structure in tree form
